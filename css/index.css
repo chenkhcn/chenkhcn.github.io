@@ -59,6 +59,22 @@
   .fontEnd .fontEndBottom .container .items a .zp-cover img {
     display: none!important;
   }
+  .music {
+    width: 30px!important;
+    height: 30px!important;
+  }
+  .musicImg {
+    width: 30px!important;
+    height: 30px!important;
+  }
+  .returnTop {
+    width: 30px!important;
+    height: 30px!important;
+  }
+  .returnTopImg {
+    width: 30px!important;
+    height: 30px!important;
+  }
 }
 html,
 body {
