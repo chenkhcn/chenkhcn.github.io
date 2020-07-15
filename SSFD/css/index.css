@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 1180px;
+}
+.header{
+    min-width: 1180px;
+    height: 100px;
+    background-color: #FFF;
+}
+.header .logo p{
+    position: absolute;
+    width: 350px;
+    /*background-color: #9d9d9d;*/
+    font-size: 40px;
+    font-family: 华文行楷;
+    color: #16a5a3;
+    line-height: 100px;
+    padding-left: 180px;
+}
+.header .title ul{
+    width: 45%;
+    float: right;
+    height: 100px;
+    margin-bottom: 0px;
+    line-height: 100px;
+
+}
+.header .title ul li{
+    margin-left: 10%;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+}
+.header .title ul li a:hover,
+.header .title ul li  a:visited,
+.header .title ul li  a:link,
+.header .title ul li  a:active {
+    text-decoration: none;
+    color: #000000;
+}
+.flicker-example{
+    height: 835px;
+    padding-top: 100px;
+}
+.photo{
+    min-width: 1180px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+.photo img{
+    border-radius: 15px;
+    width: 497px;
+    height: 342px;
+}
+@media screen and (max-width: 1590px) {
+    .photo img{
+        border-radius: 15px;
+        width: 400px;
+        height: 280px;
+    }
+}
+@media screen and (max-width: 1285px) {
+    .photo img{
+        border-radius: 15px;
+        width: 340px;
+        height: 240px;
+    }
+}
+/*.footer{*/
+    /*height: 350px;*/
+    /*background-color: #30373F;*/
+/*}*/

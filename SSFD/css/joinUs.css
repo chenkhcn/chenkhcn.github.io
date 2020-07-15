@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #FFF;
+}
+body{
+    width: 1334px;
+    margin: 0 auto;
+}
+.header{
+    margin:0 auto;
+    width: 1334px;
+    height: 80px;
+    background-color: #FFF;
+}
+.logo p{
+    position: absolute;
+    width: 350px;
+    /*background-color: #9d9d9d;*/
+    font-size: 40px;
+    font-family: 华文行楷;
+    color: #16a5a3;
+    line-height: 80px;
+    padding-left: 180px;
+}
+.title ul{
+    width: 45%;
+    float: right;
+    height: 80px;
+    margin-bottom: 0px;
+    line-height: 80px;
+
+}
+.title ul li{
+    margin-left: 10%;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+}
+.title ul li a:hover,
+.title ul li  a:visited,
+.title ul li  a:link,
+.title ul li  a:active {
+    text-decoration: none;
+    color: #000000;
+}
+.content{
+    margin-top: 80px;
+    height: 530px;
+    background-image:url(../images/3.jpg);
+}
+.joinUs{
+    margin: 0 auto;
+    width: 994px;
+    position: relative;
+    top:100px;
+    background-color: #FFF;
+    height: 600px;
+}
+.joinUs .bigTitle p{
+    color: black;
+    font-size: 26px;
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #16a5a3;
+}
+.joinUs .bigTitle span{
+    font-size: 16px;
+    padding-left: 30px;
+}
+.joinUs .t1 p{
+    position: relative;
+    padding-top: 20px;
+    color: #8490a3;
+    margin: 0 auto;
+    width: 900px;
+    font-size: 14px;
+}
+.footer{
+    margin: 0 auto;
+    position: relative;
+    top: 580px;
+    height: 80px;
+    width: 1334px;
+    border-top: 1px solid #b2b6bf;
+}
+.footer ul {
+    position: relative;
+    text-align: center;
+    width: 90px;
+    float: left;
+    top: 15px;
+    color: #555454;
+    font-size: 14px;
+}
+
+

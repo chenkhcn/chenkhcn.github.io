@@ -1,0 +1,1 @@
+1、直接双击打开index.html,或者将index.html拖拽到浏览器直接打开。

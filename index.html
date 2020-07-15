@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="images/icon.png" type="images/x-ico" />
+    <title>chenkhcn</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+     <![endif]-->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body oncontextmenu="return false">
+    <!-- Swiper -->
+    <div class="swiper-container swiper-no-swiping swiper1">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide" id="section1">
+                <!-- 欢迎页 -->
+                <div class="welcome">
+                    <div class="hello">
+                        <h1 class="hello-h1">Hello, I'm chenkhcn</h1>
+                        <h3 class="hello-h3">一个刚刚毕业的前端工程师</h3>
+                        <!-- <div class="button">
+                            <span class="aboutMeButton">
+                                <a href="#section2">about me</a>
+                            </span>
+                            <span class="myWorksButton">
+                                <a href="#section3">my works</a>
+                            </span>
+                        </div> -->
+                    </div>
+                    <div class="bigImg">
+                        <img src="images/banner.jpg" alt="">
+                    </div>
+                </div>
+                <!-- 欢迎页end -->
+            </div>
+            <div class="swiper-slide" id="section2">
+                <!-- 关于我 -->
+                <div class="aboutMe">
+                    <div class="about-content">
+                        <div class="myPic">
+                            <img src="images/mePic.jpg" alt="">
+                        </div>
+                        <div class="myMessage">
+                            <p>hello，相见就是缘分，我是陈坤洪，一个刚刚毕业的前端工程师。</p>
+                            <p>2020届计算机专业毕业生，选择从事前端开发是因为喜欢。</p>
+                            <p>没错，就是喜欢，对于炫酷的动画，简约的页面，没有抵抗力。</p>
+                            <p>如果你对我感兴趣就点击右下角来首歌，然后继续往下看吧。</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 关于我end -->
+            </div>
+            <div class="swiper-slide" id="section3">
+                <!-- 前端开发案例 -->
+                <div class="fontEnd">
+                    <!-- 标题 -->
+                    <div class="title">
+                        <h2>前端作品案例</h2>
+                        <hr>
+                        <p>写前端功能的时候，我的宗旨是能用原生js，绝不依赖插件。</p>
+                        <p>手写代码更简洁高效，也更能提升自己技术。</p>
+                    </div>
+                    <!-- 标题end -->
+                    <!-- 展示区 -->
+                    <div class="fontEndBottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/01.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="javascript:;">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>个人网站类</h4>
+                                                <p>响应式网页，运用原生js实现网页动画特效</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/02.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="https://blog.csdn.net/Crazykun" target="_blank">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>我的技术博客</h4>
+                                                <p>自己平时的知识点积累</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/03.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="JavaScript:;">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>小程序类</h4>
+                                                <p>多数据响应式网页，能兼容不同大小电脑分辨率</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/04.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="yeyu/index.html" target="_blank">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>广州晔宇官网</h4>
+                                                <p>多数据响应式网页，能兼容不同大小电脑分辨率</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/05.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="SSFD/index.html" target="_blank">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>盛世德福官网</h4>
+                                                <p>多数据响应式网页，能兼容不同大小电脑分辨率</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/06.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="JavaScript:;">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>小程序商城类</h4>
+                                                <p>商品详情展示，订单的选择或删除、金额的计算</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="hidden-xs col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/07.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="JavaScript:;">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>待使用</h4>
+                                                <p>多数据响应式网页，能兼容不同大小电脑分辨率</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="hidden-xs col-sm-4 col-md-3 items">
+                                    <div class="imgbox">
+                                        <img src="images/08.jpg" alt="作品配图">
+                                    </div>
+                                    <a href="JavaScript:;">
+                                        <div class="heimu">
+                                            <div class="zp-cover">
+                                                <h4>H5商品类</h4>
+                                                <p>商品详情展示，订单的选择或删除、金额的计算</p>
+                                                <img src="images/search.png" alt="查看">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 展示区end -->
+                </div>
+                <!-- 前端开发案例end -->
+            </div>
+            <div class="swiper-slide" id="section4">
+
+                <!-- 小程序开发案例 -->
+                <div class="wechat">
+                    <!-- 标题 -->
+                    <div class="title">
+                        <h2>小程序作品案例</h2>
+                        <hr>
+                        <p>本科毕业设计项目</p>
+                        <p>基于小程序的学生公寓智能报修系统<span class="hidden-xs hidden-sm" style="color: #337ab7;">（已上线:唯他and唯她）</span></p>
+                        <p class="visible-xs visible-sm">
+                            <a href="JavaScript:;">唯他and唯她（已上线)</a>
+                        </p>
+                    </div>
+                    <!-- 标题end -->
+                    <!-- 展示区 -->
+                    <div class="wechatBottom">
+                        <div class="visible-xs EWM">
+                            <img src="images/wechat1.jpg" alt="">
+                        </div>
+                        <div class="hidden-xs col-sm-4 col-md-3 wechat-img">
+                            <div class="wechat-img-box">
+                                <div class="wechat-img">
+                                    <img src="images/wechat1.png" alt="">
+                                    <div class="introduce">
+                                        <h4>首页/推文展示页</h4>
+                                        <p>管理员发布新推文，根据需求编辑或者删除推文等功能，系统推送给到学生端，在首页进行展示</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-4 col-md-3 wechat-img">
+                            <div class="wechat-img-box">
+                                <div class="wechat-img">
+                                    <img src="images/wechat5.png" alt="">
+                                    <div class="introduce">
+                                        <h4>管理员后台页面</h4>
+                                        <p>总共六个模块，用户信息查看，维修人员信息查看，管理维修人员，管理保修申请，发布推文，管理推文</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-4 col-md-3 wechat-img">
+                            <div class="wechat-img-box">
+                                <div class="wechat-img">
+                                    <img src="images/wechat3.png" alt="">
+                                    <div class="introduce">
+                                        <h4>提交报修申请页面</h4>
+                                        <p>实现赋予不同角色对报修记录的不同权限，学生提交报修申请，管理员审核并分配给维修人员，维修人员处理记录</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-3 wechat-img">
+                            <div class="wechat-img-box">
+                                <div class="wechat-img">
+                                    <img src="images/wechat2.png" alt="">
+                                    <div class="introduce">
+                                        <h4>个人信息页面</h4>
+                                        <p>与后台数据库交互，获得用户个人信息，查看已提交保报修申请记录</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 展示区end -->
+                </div>
+                <!-- 小程序开发案例end -->
+            </div>
+            <div class="swiper-slide" id="section5">
+                <div class="callMe">
+                    <div class="callMe-box">
+                        <!-- 边框 -->
+                        <div class="box-right"></div>
+                        <div class="box-center">
+                            <div class="callMe-title">
+                                <p class="callMe-title-p">CONTACT</p>
+                                <p class="callMe-title-p">FOR ME</p>
+                            </div>
+                            <div class="callMe-message">
+                                <p class="callMe-title-p">
+                                    <em class="callMe-title-p-em">灵感</em>
+                                    <em class="callMe-title-p-em">代码</em>
+                                    <em class="callMe-title-p-em">梦想</em>
+                                    <em class="callMe-title-p-em">未来</em>
+                                </p>
+                                <p class="callMe-title-message">
+                                    学习是一个充实愉悦的过程
+                                    <br/> 喜欢尝试，期待新鲜事物
+                                    <br/> 前端即兴趣，兴趣即未来
+                                    <br/> 行路有良友，便是捷径
+                                    <br/> 期待有机会与您共事！
+                                </p>
+                                <div class="callMe-bottom">
+                                    <a href="https://github.com/chenkhcn" target="_blank">
+                                        <img src="images/github.png" alt="">
+                                        <span class="span-p">github</span>
+                                    </a>
+                                    <a href="JavaScript:;">
+                                        <img src="images/wechat.png" alt="">
+                                        <span class="span-img">
+                                            <img src="images/wechat2x.png" alt="">
+                                        </span>
+                                    </a>
+                                    <a href="JavaScript:;">
+                                        <img src="images/QQ.png" alt="">
+                                        <span class="span-img">
+                                            <img src="images/QQ2x.png" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="box-bottom"></div>
+                        <!-- 边框end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 导航 -->
+    <div class="navigetor">
+        <!-- 菜单内容 -->
+        <div class="navigetor-content">
+            <!-- 梯形 -->
+            <div class="navigetor-content-bgc">
+                <!-- 菜单内容 -->
+                <ul class="navigetor-ul">
+                    <li data-index="0" class="navigetor-li">首页</li>
+                    <li data-index="1">关于我</li>
+                    <li data-index="2">前端开发案例</li>
+                    <li data-index="3">小程序案例</li>
+                    <li data-index="4">联系我</li>
+                </ul>
+                <!-- 菜单内容end -->
+                <!-- 图标 -->
+                <div class="bgc-gif">
+                    <img src="images/chenkhcnID.png" alt="">
+                </div>
+                <!-- 图标end -->
+            </div>
+            <!-- 梯形end -->
+        </div>
+        <!-- 菜单内容end -->
+    </div>
+    <!-- 导航end -->
+    <!-- 菜单、关闭图标 -->
+    <div class="icon">
+        <img src="images/nav.png" alt="">
+    </div>
+    <div class="talkbubble">导航</div>
+    <!-- 菜单、关闭图标end -->
+    <!-- 背景黑色蒙板 -->
+    <div class="navigetor-black"></div>
+    <!-- 背景黑色蒙板end -->
+    <!-- 悬浮播放器 -->
+    <div class="music" title="点击播放音乐">
+        <img src="images/music.png" class="musicImg imgMove" />
+        <audio src="images/ColorBlind.mp3" loop='loop' hidden autoplay="autoplay"></audio>
+    </div>
+    <!-- 悬浮播放器end -->
+    <!-- 返回最上层 -->
+    <div class="returnTop" title="返回顶部">
+        <img src="images/returnTop.png" class="returnTopImg" />
+    </div>
+    <!-- 返回最上层end -->
+
+
+</body>
+<!-- <script src="js/flexible.js"></script> -->
+<script src="js/animate.js"></script>
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/index.js"></script>
+<!-- <script src="js/indexJquery.js"></script> -->
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<!-- 禁止查看源文件 -->
+
+
+</html>
